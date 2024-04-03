@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{0D42BC5E-45E1-404C-BDA3-C6B1A320EA7E}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MuscleMagic/wwwroot/css/site.css">
+    <Files>
+      <File FileName="MuscleMagic/Views/Shared/_Layout.cshtml" />
+      <File FileName="MuscleMagic/Controllers/HomeController.cs" />
+      <File FileName="MuscleMagic/Controllers/ExerciseController.cs" />
+      <File FileName="MuscleMagic/Controllers/ProgramController.cs" />
+      <File FileName="MuscleMagic/Models/Exercise.cs" />
+      <File FileName="MuscleMagic/Models/MMcontext.cs" />
+      <File FileName="MuscleMagic/Models/User.cs" />
+      <File FileName="MuscleMagic/Views/Exercise/Muscle_group_selection.cshtml" />
+      <File FileName="MuscleMagic/Views/Home/Myaccount.cshtml" />
+      <File FileName="MuscleMagic/Views/Program/Programs.cshtml" />
+      <File FileName="MuscleMagic/Views/Home/Index.cshtml" />
+      <File FileName="MuscleMagic/wwwroot/css/site.css" Line="157" Column="145" />
+      <File FileName="MuscleMagic/wwwroot/js/site.js" />
+      <File FileName="MuscleMagic/Program.cs" />
+      <File FileName="MuscleMagic/wwwroot/css/media.css" />
+      <File FileName="MuscleMagic/Views/Shared/Error.cshtml" />
+      <File FileName="MuscleMagic/Models/ExerciseListViewModel.cs" />
+      <File FileName="MuscleMagic/Views/Home/EditAccount.cshtml" />
+      <File FileName="MuscleMagic/Models/Exerciseschedule.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MuscleMagic" expanded="True">
+            <Node name="MuscleMagic" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Exercise" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Program" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MuscleMagic PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

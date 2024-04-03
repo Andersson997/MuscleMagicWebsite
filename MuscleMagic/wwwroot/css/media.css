@@ -1,0 +1,113 @@
+﻿@media screen and (max-width: 540px) {
+    nav {
+        z-index: 1;
+        height: 9vh;
+    }
+
+    .nav-links {
+        transform: translateX(100%);
+        position: fixed;
+        right: 0px;
+        height: 91vh;
+        top: 9vh;
+        display: flex;
+        background-image: linear-gradient( to right top, #2e2f31, #2f3032, #313133, #323233, #333334, #353536, #363637, #383839, #3b3b3c, #3e3e40, #424243, #454547 );
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        opacity: 80%;
+    }
+
+        .nav-links li {
+            opacity: 0;
+        }
+
+        .nav-links a {
+            font-size: 14px;
+        }
+
+    .burger {
+        display: block;
+        padding-right: 30px;
+        padding-left: 40px;
+    }
+
+    .herosection {
+        padding: 10%;
+    }
+
+        .herosection h1 {
+            font-size: 25px;
+        }
+
+    .register button {
+        height: 3em;
+        width: 9em;
+        font-size: 14px;
+    }
+
+    .ppl {
+        padding: 4%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loginsignup-container {
+        overflow: hidden;
+    }
+
+    .loginsignup {
+        width: 90vw;
+        height: 60vh;
+        margin-left: 4%;
+        margin-top: 20%;
+        overflow: hidden;
+    }
+
+        .loginsignup form {
+            padding: 3%;
+        }
+
+    .overlay-panel {
+        padding: 3%;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+    transition: transform 0.4s;
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-90deg) translate(-9px, 10px);
+}
+
+.toggle .line2 {
+    transform: rotate(-90deg) translate(-1px, 1px);
+}
+
+.toggle .line3 {
+    transform: rotate(90deg) translate(-7px, -19px);
+}

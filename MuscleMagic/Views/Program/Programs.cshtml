@@ -1,0 +1,90 @@
+﻿@model ExerciseListViewModel
+@{
+    Layout = "_Layout";
+}
+
+<section>
+
+    <div class="programcontainer">
+        <div class="programtitlecontainer">
+            <h1 class="titlepadding"></h1><h1>Upper/Lower</h1><a asp-action="AddProgramtoUser" asp-controller="Program" asp-route-id="@Model.ProgramId" asp-route-id2="@Model.UserId" >Add user</a>
+        </div>
+        <h2>Monday</h2>
+        <div class="titlecontainer">
+            <div class="programtitles">
+                <h3>Exercise</h3>
+                <h3>Repetitions</h3>
+                <h3>Sets</h3>
+            </div>
+        </div>
+        @foreach (var item in Model.exerciselist1)
+        {
+            <div class="rowcontainer">
+                <div class="stylingcontainer">
+                    <div class="rowstyling">@Html.DisplayFor(m => item.ExerciseName)</div>
+                    <div class="rowstyling2">@Html.DisplayFor(m => item.Repetitions)</div>
+                    <div class="rowstyling3">@Html.DisplayFor(m => item.Sets)</div>
+                </div>
+            </div>
+        }
+        
+        <h2>Tuesday</h2>
+        <div class="titlecontainer">
+            <div class="programtitles">
+                <h3>Exercise</h3>
+                <h3>Repetitions</h3>
+                <h3>Sets</h3>
+            </div>
+        </div>
+        @foreach (var item in Model.exerciselist2)
+        {
+            <div class="rowcontainer">
+                <div class="stylingcontainer">
+                    <div class="rowstyling">@Html.DisplayFor(e => item.ExerciseName)</div>
+                    <div class="rowstyling2">@Html.DisplayFor(e => item.Repetitions)</div>
+                    <div class="rowstyling3">@Html.DisplayFor(e => item.Sets)</div>
+                </div>
+            </div>
+        }
+        
+        <h2>Thursday</h2>
+        <div class="titlecontainer">
+            <div class="programtitles">
+                <h3>Exercise</h3>
+                <h3>Repetitions</h3>
+                <h3>Sets</h3>
+            </div>
+        </div>
+        @foreach (var item in Model.exerciselist3)
+        {
+            <div class="rowcontainer">
+                <div class="stylingcontainer">
+                    <div class="rowstyling">@Html.DisplayFor(g => item.ExerciseName)</div>
+                    <div class="rowstyling2">@Html.DisplayFor(g => item.Repetitions)</div>
+                    <div class="rowstyling3">@Html.DisplayFor(g => item.Sets)</div>
+                </div>
+            </div>
+        }
+
+        <h2>Friday</h2>
+        <div class="titlecontainer">
+            <div class="programtitles">
+                <h3>Exercise</h3>
+                <h3>Repetitions</h3>
+                <h3>Sets</h3>
+            </div>
+        </div>
+        @foreach (var item in Model.exerciselist4)
+        {
+            <div class="rowcontainer">
+                <div class="stylingcontainer">
+                    <div class="rowstyling">@Html.DisplayFor(t => item.ExerciseName)</div>
+                    <div class="rowstyling2">@Html.DisplayFor(t => item.Repetitions)</div>
+                    <div class="rowstyling3">@Html.DisplayFor(t => item.Sets)</div>
+                </div>
+            </div>
+        }
+
+    </div>
+</section>
+
